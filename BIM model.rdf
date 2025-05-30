@@ -1,0 +1,518 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6/"
+     xml:base="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-6="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#hasBuildingElement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#hasBuildingElement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#BuildingElement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#hasCost -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#hasCost">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Cost"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#hasDocument -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#hasDocument">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Document"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#hasPhase -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#hasPhase">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#ConstructionPhase"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#hasResource -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#hasResource">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Resource"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#hasSchedule -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#hasSchedule">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Schedule"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#hasStakeholder -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#hasStakeholder">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Stakeholder"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#usesSoftware -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#usesSoftware">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Project"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#BIMSoftware"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#elementID -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#elementID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#BuildingElement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#endDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#endDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#material -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#material">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#BuildingElement"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#projectName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#projectName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#role -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#role">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Stakeholder"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#softwareName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#softwareName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#BIMSoftware"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#stakeholderName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#stakeholderName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Stakeholder"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#startDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#startDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Project"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTimeStamp"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#version -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#version">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#BIMSoftware"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Architect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Architect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#BIMSoftware -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#BIMSoftware"/>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#BuildingElement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#BuildingElement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Construction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Construction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#ConstructionPhase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#ConstructionPhase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#ConstructionPhase"/>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Contractor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Contractor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Cost"/>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Design -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Design">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#ConstructionPhase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Document -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Document"/>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Door -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Door">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#BuildingElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Engineer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Engineer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Floor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Floor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#BuildingElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Maintenance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Maintenance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#ConstructionPhase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Operation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Operation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#ConstructionPhase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Owner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Owner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Stakeholder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Project -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Project"/>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Resource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Resource"/>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Roof -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Roof">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#BuildingElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Schedule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Schedule"/>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Stakeholder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Stakeholder"/>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Wall -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Wall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#BuildingElement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Window -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Window">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#BuildingElement"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Architect1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Architect1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Architect"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Architect2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Architect2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Architect"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Contractor1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Contractor1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Contractor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Contractor2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Contractor2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Contractor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Engineer1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Engineer1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Engineer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Engineer2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Engineer2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Engineer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Floor1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Floor1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Floor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Owner1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Owner1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Owner"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Owner2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Owner2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Owner"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Project1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Project1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Project"/>
+        <untitled-ontology-6:projectName>Library</untitled-ontology-6:projectName>
+        <untitled-ontology-6:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-20T400:30:40.5</untitled-ontology-6:startDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Project2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Project2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Project"/>
+        <untitled-ontology-6:projectName>Project2</untitled-ontology-6:projectName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Wall1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Wall1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Wall"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Architect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Contractor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Engineer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Owner"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Construction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Design"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Maintenance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Operation"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Door"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Floor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Roof"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Wall"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/elitesolutions/ontologies/2025/1/untitled-ontology-6#Window"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
